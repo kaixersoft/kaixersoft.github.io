@@ -1,5 +1,4 @@
 /* Uncomment to remove guide */
-
 [class*="col-"] {
     border:none !important;
     background:none !important;
@@ -7,18 +6,19 @@
 
 
 
+
 /*
  Landing Page
 **************/
 .box-max {
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .glyphicon {
     font-size: 70px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .glyphicon.glyphicon-user 
@@ -41,18 +41,18 @@
 {
 	color:#F70A59;
 }
+.nav-text
+{
+	color:#9CEB1E;
+}
 
 
 
-/*
 
 .all-box-min {
 	min-width:320px;
 }
-.main-box {
-	padding:10px 10px;	
-}
-*/
+
 .header-box {
 	margin-top: 20px;
 	margin-bottom: 40px;
@@ -61,8 +61,8 @@
 .header-text {
 	display: inline-block;
 	padding: 5px 10px;
-	font-size:25px;
-	width: 320px;
+	font-size:20px;
+	width: 200px;
 }
 
 .footer-box {
@@ -70,10 +70,17 @@
 	padding:10px 10px;
 }
 
+.footer-icon {
+	display: inline-block;
+	font-size:15px;
+	text-align: right;
+}
 .footer-text {
 	display: inline-block;
 	padding: 5px 10px;
-	font-size:12px;
+	padding-left: 0px;
+	font-size:13px;
+	text-align: left;
 }
 
 body {
