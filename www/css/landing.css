@@ -1,0 +1,81 @@
+/* Uncomment to remove guide */
+
+[class*="col-"] {
+    border:none !important;
+    background:none !important;
+}
+
+
+
+/*
+ Landing Page
+**************/
+.box-max {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.glyphicon {
+    font-size: 70px;
+    width: 100px;
+    height: 100px;
+}
+
+.glyphicon.glyphicon-user 
+{
+	color:#0AF7B0;
+}
+.glyphicon.glyphicon-hdd
+{
+	color:#EFF70A;
+}
+.glyphicon.glyphicon-gift
+{
+	color:#F76D0A;
+}
+.glyphicon.glyphicon-fire
+{
+	color:#D40AF7;
+}
+.glyphicon.glyphicon-leaf
+{
+	color:#F70A59;
+}
+
+
+
+/*
+
+.all-box-min {
+	min-width:320px;
+}
+.main-box {
+	padding:10px 10px;	
+}
+*/
+.header-box {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding:10px 10px;
+}
+.header-text {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size:25px;
+	width: 320px;
+}
+
+.footer-box {
+	margin-top: 20px;
+	padding:10px 10px;
+}
+
+.footer-text {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size:12px;
+}
+
+body {
+	background: #0F0E0E !important;
+}
