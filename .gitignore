@@ -1,8 +1,0 @@
-# Default
-node_modules/
-www/js/lib/*
-!www/index.html
-!www/js/.gitkeep
-!www/js/lib/.gitkeep
-!www/css/.gitkeep
-!www/images/.gitkeep
