@@ -1,0 +1,47 @@
+/*
+ About Page
+**************/
+.panel,.well
+{
+	background-color: #000  !important;
+}
+
+.profile-pic
+{
+	max-width: 300px;
+}
+
+.profile-pic .img-thumbnail
+{
+	background-color: #000  !important;
+	max-width: 100px;
+}
+
+table.borderless td,table.borderless th
+{
+     border: none !important;
+}
+
+#profile-tbl .badge 
+{
+	color: #fff;
+	background-color: #0E635F;
+	width: 45px;
+}
+
+#profile-tbl .label
+{
+	padding: 5px 5px;
+    width: 80%;
+    display: inline-block;
+    background-color: #0E635F;
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+#profile-tbl .label a,
+#profile-tbl .label a:hover 
+{
+	color:#fff;
+}    

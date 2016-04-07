@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.css" />
   <!-- endbower -->
   <!-- injector:css -->
+  <link rel="stylesheet" href="/css/about.css">
   <link rel="stylesheet" href="/css/landing.css">
   <link rel="stylesheet" href="/css/responsive.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -24,28 +25,163 @@
     <div class="row row-centered">
         <div class="col-xs-12 col-md-12 col-centered all-box-min">
             <div class="text-center header-box">
-              <button type="button" id="banner" class="btn btn-success header-text">
+              <span id="banner" 
+                class="badge badge-success header-text"
+                data-toggle="tooltip" 
+                data-placement="bottom" 
+                title="Click to go back to home page">
                 Grammer's Profile
-              </button>
+              </span>
            </div>     
         </div>
     </div>
 
 
-    <!-- Main Navigation -->
+    <!-- Logo -->
     <div class="row row-centered">
             
-              <!-- About Me -->
-              <div class="col-xs-6 col-md-3 col-centered nav-box">                 
-                  <span data-toggle="tooltip" data-placement="top" 
-                        title="About Me"
-                        class="fa fa-smile-o fa-5x"></span>
-                  <p class="visible-xs visible-sm hidden-md hidden-lg text-center nav-text">
-                  About Me
-                  </p>
+        <!-- About Me -->
+        <div class="col-xs-12 col-md-3 col-centered nav-box">                 
+            <span data-toggle="tooltip" data-placement="top" 
+                  title="About Me"
+                  class="fa fa-smile-o fa-5x"></span>
+            <p class="visible-xs visible-sm hidden-md hidden-lg text-center nav-text">
+            About Me
+            </p>
+        </div>
+
+        <!-- Content -->
+        <div class="col-xs-12 col-md-6 col-centered all-box-min">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#page" aria-controls="page" role="tab" data-toggle="tab">About Me</a></li>
+              <li role="presentation"><a href="#comment" aria-controls="comment" role="tab" data-toggle="tab">Comment</a></li>
+            </ul>
+            <br>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="page">                
+                    
+                    <div class="row row-centered">
+                        <div class="hidden-xs col-md-4 col-lg-4 center-block  profile-pic">
+                              <img src="images/avatar.png" alt="" class="img-thumbnail">
+                        </div>
+                        <div class="col-xs-12 col-md-8 col-lg-8">
+
+                          <div class="table-responsive" id="profile-tbl">
+                            <table class="table borderless">
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-user fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">Xerxis Alvar</span>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-tags fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">Web Solutions Architech</span>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-google-plus-square fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">
+                                  <a href="mailto:xerxis.alvar@gmail.com?Subject=Hello%20Xerxis" target="_top">
+                                    xerxis.alvar@gmail.com
+                                  </a>
+                                  </span>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-skype fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">
+                                  <a href="skype:xerxis.alvar?add" target="_top">
+                                    xerxis.alvar
+                                  </a>
+                                  </span>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-github-alt fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">
+                                  <a href="https://gitlab.com/u/kaixersoft/groups" target="_top">
+                                    xerxis@kaixersoft
+                                  </a>
+                                  </span>
+                                </td>
+                              </tr>                             
+
+                              <tr>
+                                <td class="text-right">
+                                  <span class="badge"><i class="fa fa-wordpress fa-2x"></i></span>
+                                </td>
+                                <td class="text-left">
+                                  <span class="label">
+                                  <a href="https://kaixersoft.wordpress.com" target="_top">
+                                    Grammer's Diary
+                                  </a>
+                                  </span>
+                                </td>
+                              </tr> 
+
+
+                            </table>
+                          </div>
+
+                        </div>
+                    </div>
+
               </div>
-              
-  
+              <div role="tabpanel" class="tab-pane" id="comment">
+                <div class="panel panel-default"><div class="panel-body">
+                    
+
+                      <!-- Disqus Comment System -->
+                      <div id="disqus_thread"></div>
+                      <script>
+                      /**
+                      * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                      * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                      */
+                      var disqus_config = function () {
+                      this.page.url = 'http://localhost:3000/about.html'; // Replace PAGE_URL with your page's canonical URL variable
+                      this.page.identifier = 'about_page'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                      };
+                      (function() { // DON'T EDIT BELOW THIS LINE
+                      var d = document, s = d.createElement('script');
+
+                      s.src = '//kakitech.disqus.com/embed.js';
+
+                      s.setAttribute('data-timestamp', +new Date());
+                      (d.head || d.body).appendChild(s);
+                      })();
+                      </script>
+                      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                      <!-- END / Disqus Comment System --> 
+
+                </div></div>
+              </div>
+            </div>
+
+        </div>
 
     </div>
 

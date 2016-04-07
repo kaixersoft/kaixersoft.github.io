@@ -1,24 +1,7 @@
-/* Uncomment to remove guide */
-[class*="col-"] {
-    border:none !important;
-    background:none !important;
-}
-
-
-
-
 /*
  Landing Page
 **************/
 
-/* Common */
-body {
-	background: #0F0E0E !important;
-}
-
-.all-box-min {
-	min-width:320px;
-}
 
 /* Navigation Box */
 .nav-box {
@@ -65,38 +48,4 @@ body {
 
 
 
-
-/* Header Box */
-
-.header-box {
-	margin-top: 20px;
-	margin-bottom: 40px;
-	padding:10px 10px;
-}
-.header-text {
-	display: inline-block;
-	padding: 5px 10px;
-	font-size:20px;
-	width: 200px;
-}
-
-
-/* Footer Box */
-.footer-box {
-	margin-top: 20px;
-	padding:10px 10px;
-}
-
-.footer-icon {
-	display: inline-block;
-
-	text-align: right;
-}
-.footer-text {
-	display: inline-block;
-	padding: 5px 10px;
-	padding-left: 0px;
-	font-size:13px;
-	text-align: left;
-}
 
