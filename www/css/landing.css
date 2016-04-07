@@ -36,7 +36,7 @@ body {
 
 .nav-box .fa-smile-o 
 {
-	color:#0AF7B0;
+	color:#EB1A1D;
 }
 .nav-box .fa-flag-checkered
 {
@@ -53,6 +53,10 @@ body {
 .nav-box .fa-wordpress
 {
 	color:#F70A59;
+}
+.nav-box .fa-gift
+{
+	color:#1EFA72;
 }
 .nav-text
 {
