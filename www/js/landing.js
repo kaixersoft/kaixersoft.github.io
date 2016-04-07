@@ -13,6 +13,11 @@ $('.nav-box .fa-flag-checkered').click(function(){
 	location.href = "/portfolio.html";
 });
 
+$('.nav-box .fa-code').click(function(){
+	location.href = "/skills.html";
+});
+
+
 $('.nav-box .fa-puzzle-piece').click(function(){
 	location.href = "/technology.html";
 });
