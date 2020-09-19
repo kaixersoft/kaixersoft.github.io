@@ -1,0 +1,135 @@
+{
+  "main": {
+    "name":"KaKi-Tech",
+    "description":"Web Solution Provider",
+    "image":"profilepic.png",
+    "bio":"Seasoned web solutions with robust experience ranging from building web application , customised CMS driven website, RESTful API and GraphQL. Ample knowledge and experience setting up cloud services, such as Amazon Web Services.",
+    "contactmessage":"Feel free to contact me for more details, have a good day ahead",
+    "email": "kaixersoft@gmail.com",
+    "github":"https://github.com/kaixersoft",
+    "blog":"http://blog.kaki-tech.com",
+    "address":{
+      "city":"Sto.Tomas",
+      "state":"Philippines"
+    },
+    "website": "http://www.kaki-tech.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"#",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"#",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/kaixersoft",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"#",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/kaixersoft",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here's the technology stack that I am knowledgeable and able to deliver",
+    "education":[
+      {
+        "school":"University Of Batangas",
+        "degree":"Bachelor Of Science in Computer Engineering",
+        "graduated":"April 2001"
+      }
+    ],
+    "work":[
+      {
+        "company":"GlobalSignin Pte. Ltd. ( Singapore )",
+        "title":"Full Stack Engineer",
+        "years":"March 2019 - Present",
+        "description":"Maintain and add new features to existing platform. Responsible for managing release features"
+      },
+      {
+        "company":"Plus65 Pte. Ltd. ( Singapore )",
+        "title":"Web Application Developer",
+        "years":"March 2016 - January 2019",
+        "description":"Primary role as a backend developer. Responsible for delivering RESTful API and architectural aspect of the project."
+      },
+      {
+        "company": "Brilliant Basics ( Singapore )",
+        "title": "Senior Associate Technology",
+        "years": "July 2015 - March 2016",
+        "description": "Primary role as a backend developer. Responsible for delivering RESTful API and unit tests to ensure stability"
+      },
+      {
+        "company": "Flok Pte. Ltd ( Singapore )",
+        "title": "Senior Developer",
+        "years": "July 2013 - June 2015",
+        "description": "Develop custom web solutions for clients. Responsible for orchestrating client project cloud services"
+      },
+      {
+        "company": "iHub Media Pte. Ltd ( Singapore )",
+        "title": "Web Developer",
+        "years": "Oct 2011 - June 2013",
+        "description": "Develop and maintain Ads Management platform (Facebook Ads, Google AdSense)."
+      },      
+      {
+        "company": "Vocanic Pte. Ltd ( Singapore )",
+        "title": "Software Engineer",
+        "years": "Jul 2010 - Sept 2011",
+        "description": "Develop custom Facebook application for client campaigns"
+      },      
+      {
+        "company": "Babcock-Hitachi ( Philippines )",
+        "title": "Software Engineer",
+        "years": "Jul 2002 - Jun 2010",
+        "description": "Develop custom Facebook application for client campaigns"
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"NodeJs",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"90%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"90%"
+      },
+      {
+        "name":"Docker",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Custom solutions",
+        "category":"Custome CMS, Facebook Application",
+        "image":"facebook app.png",
+        "url":"https://kaixersoft.wordpress.com/portfolio/"
+      }
+    ]
+  }
+}
